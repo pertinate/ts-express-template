@@ -1,5 +1,5 @@
 {
-  "name": "ts-template",
+  "name": "ts-express-template",
   "version": "1.0.0",
   "description": "Template for a basic typescript project",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "dev:container": "docker run --rm -it --name node-docker -v $PWD:/home/node/app -w /home/node/app -e \"PORT=8080\" -p 8080:8080 -u node node:14.13.1-alpine3.12 /bin/ash"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pertinate",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pertinate/ts-template.git"
+    "url": "git+https://github.com/pertinate/ts-express-template.git"
   },
   "bugs": {
-    "url": "https://github.com/pertinate/ts-template/issues"
+    "url": "https://github.com/pertinate/ts-express-template/issues"
   },
-  "homepage": "https://github.com/pertinate/ts-template#readme"
+  "homepage": "https://github.com/pertinate/ts-express-template#readme"
 }
